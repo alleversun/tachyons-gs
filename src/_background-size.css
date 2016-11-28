@@ -17,18 +17,26 @@
 
   .cover { background-size: cover!important; }
   .contain { background-size: contain!important; }
+  .bg-fixed { background-attachment: fixed!important; }
+  .object-fit { object-fit:cover; }
 
 @media (--breakpoint-not-small) {
   .cover-ns { background-size: cover!important; }
   .contain-ns { background-size: contain!important; }
+  .bg-fixed-ns { background-attachment: fixed!important; }
+  .object-fit-ns { object-fit:cover; }
 }
 
 @media (--breakpoint-medium) {
   .cover-m { background-size: cover!important; }
   .contain-m { background-size: contain!important; }
+  .bg-fixed-m { background-attachment: fixed!important; }
+  .object-fit-m { object-fit:cover; }
 }
 
 @media (--breakpoint-large) {
   .cover-l { background-size: cover!important; }
   .contain-l { background-size: contain!important; }
+  .bg-fixed-l { background-attachment: fixed!important; }
+  .object-fit-l { object-fit:cover; }
 }
